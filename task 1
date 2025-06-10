@@ -1,0 +1,14 @@
+🎮 Java Number Guessing Game (Console Version) 🎮
+
+A simple Java-based number guessing game for beginners. 
+
+✔️ The game generates a random number between 1 and 100.
+✔️ User gets 5 attempts to guess the correct number.
+✔️ Displays hints ("Too High" / "Too Low") after each guess.
+✔️ Tracks score and total rounds played.
+✔️ Option to play multiple rounds.
+
+Tech Stack: Java (Console-Based)
+
+Perfect for learning Java basics, loops, conditionals, and random number generation!
+

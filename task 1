@@ -1,14 +1,65 @@
-🎮 Java Number Guessing Game (Console Version) 🎮
+import java.util.Scanner;
+import java.util.Random;
 
-A simple Java-based number guessing game for beginners. 
+public class NumberGuessingGame {
+    /**
+     * @param args
+     */
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Random rand = new Random();
+        
+        int score = 0;
+        int rounds = 0;
+        String playAgain;
 
-✔️ The game generates a random number between 1 and 100.
-✔️ User gets 5 attempts to guess the correct number.
-✔️ Displays hints ("Too High" / "Too Low") after each guess.
-✔️ Tracks score and total rounds played.
-✔️ Option to play multiple rounds.
+        System.out.println("🎮 Welcome to the Number Guessing Game! 🎮");
+        System.out.println("Guess the number between 1 and 100.");
+        System.out.println("You have 5 attempts per round.\n");
 
-Tech Stack: Java (Console-Based)
+        do {
+            int numberToGuess = rand.nextInt(100) + 1;
+            int attempts = 5;
+            boolean hasWon = false;
 
-Perfect for learning Java basics, loops, conditionals, and random number generation!
+            System.out.println("A new number has been selected. Let's start!");
 
+            while (attempts > 0) {
+                System.out.print("Enter your guess: ");
+                int userGuess = sc.nextInt();
+                attempts--;
+
+                if (userGuess == numberToGuess) {
+                    System.out.println("🎉 Congratulations! You guessed the number correctly.");
+                    hasWon = true;
+                    score++;
+                    break;
+                } else if (userGuess < numberToGuess) {
+                    System.out.println("📉 Too low!");
+                } else {
+                    System.out.println("📈 Too high!");
+                }
+
+                System.out.println("Attempts left: " + attempts);
+            }
+
+            if (!hasWon) {
+                System.out.println("❌ You've used all attempts! The correct number was: " + numberToGuess);
+            }
+
+            rounds++;
+            System.out.println("\n✅ Round Over! Your Score: " + score + "/" + rounds);
+
+            System.out.print("\nDo you want to play again? (yes/no): ");
+            playAgain = sc.next();
+
+            System.out.println(); // For better spacing
+
+        } while (playAgain.equalsIgnoreCase("yes"));
+
+        System.out.println("🎮 Game Over! Final Score: " + score + "/" + rounds);
+        System.out.println("Thank you for playing! 👋");
+
+        sc.close();
+    }
+}

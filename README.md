@@ -1,3 +1,6 @@
+# 💼 CodSoft Internship – Java Projects (June 2025)
+
+This repository contains my submissions for the **CodSoft Java Internship**, including completed Java console applications.
 
 ---
 
@@ -5,32 +8,35 @@
 
 ### **Task 1: Number Guessing Game (Java)**
 
-- A simple number guessing game built in **Console**.
-- Features:
-  - Random number between 1 and 100
-  - 5 attempts per round
-  - Score and round tracking
-  - Replay option
- 
+A simple number guessing game built using Java for the console.
 
-**Tech Used:** Java (JDK 17+)VS Code
+**🔹 Features:**
+- Random number between 1 and 100  
+- 5 attempts per round  
+- Score and round tracking  
+- Replay option  
+
+**🛠️ Tech Used:**  
+Java (JDK 17+), VS Code
 
 ---
-Task 2:
-🎓 Internship Project: Student Grade Calculator
-A simple Java-based console application to calculate total marks, average percentage, and assign grades based on user input.
-💻 Language: Java
-🚀 Features:
 
-Dynamic subject input
+### **Task 2: Student Grade Calculator (Java)**
 
-Input validation
+A Java console application to calculate total marks, average percentage, and grade based on user-entered subject marks.
 
-Automated grading logic
+**🔹 Features:**
+- Dynamic subject input  
+- Input validation (0–100)  
+- Automated grading logic (A+, A, B, C, D, F)  
+- Clean and modular code  
 
-Clean and modular code
+**🛠️ Tech Used:**  
+Java (JDK 17+), VS Code
 
 📂 Clone and run to see it in action!
+
+---
 
 ## 🚀 Upcoming Tasks
 
@@ -44,4 +50,3 @@ Clean and modular code
 - 🔗 [GitHub](https://github.com/PrateekSingh-01)
 
 ---
-

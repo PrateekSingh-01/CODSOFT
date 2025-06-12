@@ -16,10 +16,24 @@
 **Tech Used:** Java (JDK 17+)VS Code
 
 ---
+Task 2:
+🎓 Internship Project: Student Grade Calculator
+A simple Java-based console application to calculate total marks, average percentage, and assign grades based on user input.
+💻 Language: Java
+🚀 Features:
+
+Dynamic subject input
+
+Input validation
+
+Automated grading logic
+
+Clean and modular code
+
+📂 Clone and run to see it in action!
 
 ## 🚀 Upcoming Tasks
 
-- Task 2: *(To be updated)*
 - Task 3: *(To be updated)*
 
 ---

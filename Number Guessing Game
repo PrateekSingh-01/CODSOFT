@@ -13,7 +13,7 @@ public class NumberGuessingGame {
         int rounds = 0;
         String playAgain;
 
-        System.out.println("🎮 Welcome to the Number Guessing Game! 🎮");
+        System.out.println(" Welcome to the Number Guessing Game! ");
         System.out.println("Guess the number between 1 and 100.");
         System.out.println("You have 5 attempts per round.\n");
 
@@ -30,25 +30,25 @@ public class NumberGuessingGame {
                 attempts--;
 
                 if (userGuess == numberToGuess) {
-                    System.out.println("🎉 Congratulations! You guessed the number correctly.");
+                    System.out.println(" Congratulations! You guessed the number correctly.");
                     hasWon = true;
                     score++;
                     break;
                 } else if (userGuess < numberToGuess) {
-                    System.out.println("📉 Too low!");
+                    System.out.println(" Too low!");
                 } else {
-                    System.out.println("📈 Too high!");
+                    System.out.println(" Too high!");
                 }
 
                 System.out.println("Attempts left: " + attempts);
             }
 
             if (!hasWon) {
-                System.out.println("❌ You've used all attempts! The correct number was: " + numberToGuess);
+                System.out.println(" You've used all attempts! The correct number was: " + numberToGuess);
             }
 
             rounds++;
-            System.out.println("\n✅ Round Over! Your Score: " + score + "/" + rounds);
+            System.out.println("\n Round Over! Your Score: " + score + "/" + rounds);
 
             System.out.print("\nDo you want to play again? (yes/no): ");
             playAgain = sc.next();
@@ -57,8 +57,8 @@ public class NumberGuessingGame {
 
         } while (playAgain.equalsIgnoreCase("yes"));
 
-        System.out.println("🎮 Game Over! Final Score: " + score + "/" + rounds);
-        System.out.println("Thank you for playing! 👋");
+        System.out.println(" Game Over! Final Score: " + score + "/" + rounds);
+        System.out.println("Thank you for playing! ");
 
         sc.close();
     }

@@ -1,14 +1,8 @@
-# 💼 CodSoft Internship – Java Projects (June 2025)
-
-This repository contains my submissions for the **CodSoft Java Internship**, including completed Java console applications.
-
----
-
 ## ✅ Completed Tasks
 
 ### **Task 1: Number Guessing Game (Java)**
 
-A simple number guessing game built using Java for the console.
+A simple number guessing game built in **Console**.
 
 **🔹 Features:**
 - Random number between 1 and 100  
@@ -16,8 +10,7 @@ A simple number guessing game built using Java for the console.
 - Score and round tracking  
 - Replay option  
 
-**🛠️ Tech Used:**  
-Java (JDK 17+), VS Code
+**🛠️ Tech Used:** Java (JDK 17+), VS Code
 
 ---
 
@@ -31,22 +24,24 @@ A Java console application to calculate total marks, average percentage, and gra
 - Automated grading logic (A+, A, B, C, D, F)  
 - Clean and modular code  
 
-**🛠️ Tech Used:**  
-Java (JDK 17+), VS Code
-
-📂 Clone and run to see it in action!
+**🛠️ Tech Used:** Java (JDK 17+), VS Code
 
 ---
 
-## 🚀 Upcoming Tasks
+### **Task 3: ATM Interface (Java)**
 
-- Task 3: *(To be updated)*
+A menu-driven ATM simulator built using Java console. It connects to a user’s bank account and performs basic banking operations.
 
----
+**🔹 Features:**
+- Withdraw, deposit, and balance check options  
+- Connects ATM and user bank account classes  
+- Validates user input (sufficient balance, positive numbers)  
+- Displays transaction success/failure messages  
+- Clean object-oriented structure  
 
-## 🔗 Connect with Me
+**🛠️ Tech Used:** Java (JDK 17+), VS Code
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/prateek-singh-08b0b8338/)
-- 🔗 [GitHub](https://github.com/PrateekSingh-01)
-
----
+📂 Run using:
+```bash
+javac ATMInterface.java
+java ATMInterface

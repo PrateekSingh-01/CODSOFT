@@ -1,8 +1,14 @@
+# 💼 CodSoft Internship – Java Projects (June 2025)
+
+This repository contains my submissions for the **CodSoft Java Internship**, including completed Java console applications.
+
+---
+
 ## ✅ Completed Tasks
 
 ### **Task 1: Number Guessing Game (Java)**
 
-A simple number guessing game built in **Console**.
+A simple number guessing game built using Java for the console.
 
 **🔹 Features:**
 - Random number between 1 and 100  
@@ -10,7 +16,8 @@ A simple number guessing game built in **Console**.
 - Score and round tracking  
 - Replay option  
 
-**🛠️ Tech Used:** Java (JDK 17+), VS Code
+**🛠️ Tech Used:**  
+Java (JDK 17+), VS Code
 
 ---
 
@@ -24,7 +31,8 @@ A Java console application to calculate total marks, average percentage, and gra
 - Automated grading logic (A+, A, B, C, D, F)  
 - Clean and modular code  
 
-**🛠️ Tech Used:** Java (JDK 17+), VS Code
+**🛠️ Tech Used:**  
+Java (JDK 17+), VS Code
 
 ---
 
@@ -37,11 +45,27 @@ A menu-driven ATM simulator built using Java console. It connects to a user’s 
 - Connects ATM and user bank account classes  
 - Validates user input (sufficient balance, positive numbers)  
 - Displays transaction success/failure messages  
+
+**🛠️ Tech Used:**  
+Java (JDK 17+), VS Code
+
+---
+
+### **Task 4: Student Management System (Java)**
+
+A console-based Java application to manage student records with features like add, display, search, and file storage using serialization.
+
+**🔹 Features:**
+- Add student details (name, roll no, grade)
+- View all student records  
+- Search student by roll number  
+- Save/load data using file serialization  
 - Clean object-oriented structure  
 
-**🛠️ Tech Used:** Java (JDK 17+), VS Code
+**🛠️ Tech Used:**  
+Java (JDK 17+), File I/O, Serialization, VS Code
 
-📂 Run using:
+📂 To run:
 ```bash
-javac ATMInterface.java
-java ATMInterface
+javac Student.java StudentManagementSystem.java
+java StudentManagementSystem

@@ -184,3 +184,43 @@ public class StudentGUI extends JFrame {
         new StudentGUI();
     }
 }
+
+STUDENT CLASS (CREATE THIS CLASS TO USE GUI)
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.io.Serializable;
+
+class Student implements Serializable {
+   private String name;
+   private String rollNumber;
+   private String grade;
+
+   public Student(String var1, String var2, String var3) {
+      this.name = var1;
+      this.rollNumber = var2;
+      this.grade = var3;
+   }
+
+   public String getName() {
+      return this.name;
+   }
+
+   public String getRollNumber() {
+      return this.rollNumber;
+   }
+
+   public String getGrade() {
+      return this.grade;
+   }
+
+   public void setName(String var1) {
+      this.name = var1;
+   }
+
+   public void setGrade(String var1) {
+      this.grade = var1;
+   }
+
+   public String toString() {
+      return "Name: " + this.name + ", Roll No: " + this.rollNumber + ", Grade: " + this.grade;
+   }
+}
